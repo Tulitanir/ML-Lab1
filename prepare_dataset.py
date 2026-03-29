@@ -1,12 +1,3 @@
-"""
-Transforms the raw data + samples.json into an ImageFolder-compatible directory structure:
-    dataset/
-        train/
-            A/  B/  C/  ...
-        test/
-            A/  B/  C/  ...
-"""
-
 import json
 import shutil
 from pathlib import Path

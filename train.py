@@ -1,14 +1,3 @@
-"""
-MLP classifier for ASL hand signs.
-
-Usage:
-    # Train
-    python train.py
-
-    # Inference on a single image
-    python train.py --infer path/to/image.jpg --checkpoint checkpoints/best.pt
-"""
-
 import argparse
 
 import matplotlib.pyplot as plt
